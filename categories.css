@@ -1,0 +1,31 @@
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 256px;
+    background-color: rgb(255, 201, 249);
+    font-family: 'Dosis';
+    
+}
+
+.catbutton {
+    font-family: 'Dosis';
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    background-color: rgb(187, 141, 182);
+    color: black;
+    text-decoration: none;
+    float: left;
+    padding: 25px;
+    height: 100%;
+}
+
+.catbutton:hover {
+    box-shadow: 0 2px 5px -2px black;
+    background-color: white;
+}
+
+

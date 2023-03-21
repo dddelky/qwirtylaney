@@ -1,0 +1,50 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: palevioletred;
+    padding: 25px;
+    font-family: 'Dosis';
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+.section1 {
+    margin-right: auto;
+    display: flex;
+}
+
+.section2 {
+    margin-right: auto;
+    display: flex;
+}
+
+.section3 {
+    margin: none;
+    display: flex;
+}
+
+section > h2{
+    color: white;
+    border-bottom: 1px white;
+    border-bottom-style: solid;
+    margin-bottom: 8px;
+    font-size: 20px;
+    letter-spacing: 8px;
+    padding-bottom: 8px;
+}
+
+section > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+section > a:hover{
+    border-bottom: 1px solid rgb(255, 196, 239);
+    margin-bottom: 7px;
+}
